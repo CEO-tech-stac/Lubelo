@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lubelo Tech Solutions - Professional IT Services in Durban</title>
+    <meta name="description" content="Lubelo Tech Solutions provides professional IT services in Durban including website design, cybersecurity, cloud services, and technical support. Stay ahead with ever-changing technology.">
+    <meta name="keywords" content="IT services Durban, website design, cybersecurity, cloud services, technical support, Lubelo Tech Solutions">
+    <meta name="author" content="Lubelo Tech Solutions">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Lubelo Tech Solutions - Professional IT Services">
+    <meta property="og:description" content="Your trusted partner for digital transformation and technology excellence in Durban.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lubelotechsolutions.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">LTS</div>
+            <div class="loading-text">Lubelo Tech Solutions</div>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header" class="header" role="banner">
+        <div class="container">
+            <div class="navbar">
+                <div class="brand" aria-label="Lubelo Tech Solutions">
+                    <span class="brand-text">Lubelo Tech Solutions</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop" role="navigation" aria-label="Main navigation">
+                    <a href="#home" class="nav-link" aria-label="Go to Home section">Home</a>
+                    <a href="#about" class="nav-link" aria-label="Go to About section">About</a>
+                    <a href="#services" class="nav-link" aria-label="Go to Services section">Services</a>
+                    <a href="#contact" class="nav-link" aria-label="Go to Contact section">Contact</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="nav-mobile" id="nav-mobile" role="navigation" aria-label="Mobile navigation">
+                <nav>
+                    <a href="#home" class="nav-link-mobile" aria-label="Go to Home section">Home</a>
+                    <a href="#about" class="nav-link-mobile" aria-label="Go to About section">About</a>
+                    <a href="#services" class="nav-link-mobile" aria-label="Go to Services section">Services</a>
+                    <a href="#contact" class="nav-link-mobile" aria-label="Go to Contact section">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero" role="banner" aria-label="Hero section">
+            <div class="hero-background" aria-hidden="true"></div>
+            <div class="hero-overlay" aria-hidden="true"></div>
+            
+            <!-- Animated Background Elements -->
+            <div class="hero-animations" aria-hidden="true">
+                <div class="floating-circle circle-1"></div>
+                <div class="floating-circle circle-2"></div>
+            </div>
+
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Empowering Your Business with 
+                    <span class="hero-highlight">Innovative IT Solutions</span>
+                </h1>
+                <div class="hero-slogan" role="text">"Stay ahead with the ever-changing technology"</div>
+                <button class="btn-primary" onclick="scrollToSection('contact')" aria-label="Contact us to get started">
+                    Get Started Today
+                </button>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about" role="region" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading" class="sr-only">About Lubelo Tech Solutions</h2>
+                <div class="about-grid">
+                    <article class="about-card card-one">
+                        <h3>Who We Are</h3>
+                        <p>Lubelo Tech Solutions is a Durban-based tech company focused on delivering cost-effective IT services and digital solutions to individuals, startups, and small businesses across South Africa.</p>
+                    </article>
+
+                    <article class="about-card card-two">
+                        <h3>Vision</h3>
+                        <p>To be a trusted leader in South Africa's tech landscape by enabling individuals and businesses to thrive through accessible and innovative technology solutions.</p>
+                    </article>
+
+                    <article class="about-card card-three">
+                        <h3>Mission</h3>
+                        <p>To deliver human-centered, professional, and practical tech solutions that support local economic development and digital transformation — one client at a time.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services" role="region" aria-labelledby="services-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="services-heading" class="section-title">Our Services</h2>
+                    <p class="section-slogan">"Stay ahead with the ever-changing technology"</p>
+                </div>
+
+                <div class="services-grid" role="list">
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <polyline points="16,18 22,12 16,6"></polyline>
+                                <polyline points="8,6 2,12 8,18"></polyline>
+                            </svg>
+                        </div>
+                        <h3>Custom Website Design</h3>
+                        <p>Professional, responsive websites using modern technologies like HTML5, CSS3, React, and WordPress. Built for performance, SEO, and exceptional user experience.</p>
+                    </article>
+
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="m4.93 4.93 4.24 4.24"></path>
+                                <path d="m14.83 9.17 4.24-4.24"></path>
+                                <path d="m14.83 14.83 4.24 4.24"></path>
+                                <path d="m9.17 14.83-4.24 4.24"></path>
+                            </svg>
+                        </div>
+                        <h3>E-commerce Development</h3>
+                        <p>Secure, scalable online stores with integrated payment gateways. Specializing in WooCommerce, Shopify, and custom solutions that drive sales and revenue growth.</p>
+                    </article>
+
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                <path d="m3 5 9 9 9-9"></path>
+                                <path d="m3 12 9 9 9-9"></path>
+                                <path d="m3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                            </svg>
+                        </div>
+                        <h3>CMS Solutions</h3>
+                        <p>User-friendly content management systems built on WordPress, Joomla, or custom platforms. Easy to update, secure, and scalable for your business growth.</p>
+                    </article>
+
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"></polygon>
+                            </svg>
+                        </div>
+                        <h3>Landing Pages</h3>
+                        <p>High-converting single-page microsites designed for campaigns, product launches, and lead generation. Optimized for maximum conversion rates and ROI.</p>
+                    </article>
+
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                        </div>
+                        <h3>Website Maintenance</h3>
+                        <p>Comprehensive ongoing support including security updates, plugin management, performance optimization, and regular backups to keep your site running smoothly.</p>
+                    </article>
+
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+                                <line x1="8" x2="16" y1="21" y2="21"></line>
+                                <line x1="12" x2="12" y1="17" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h3>SEO Services</h3>
+                        <p>Complete SEO optimization including on-page setup, technical audits, speed improvements, and keyword strategy to boost your search rankings and visibility.</p>
+                    </article>
+
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="m3 11 18-5v12L3 14v-3z"></path>
+                                <path d="m11.6 16.8a3 3 0 1 1-5.8-1.6"></path>
+                            </svg>
+                        </div>
+                        <h3>Help Desk Support</h3>
+                        <p>Professional remote and on-site technical support for hardware, software, and user devices. Quick response times and expert problem resolution guaranteed.</p>
+                    </article>
+
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <rect width="16" height="6" x="4" y="2" rx="2"></rect>
+                                <rect width="6" height="16" x="9" y="4" rx="2"></rect>
+                            </svg>
+                        </div>
+                        <h3>Network Setup & Configuration</h3>
+                        <p>Professional LAN/Wi-Fi setup, router configuration, and secure networking solutions. Ensuring reliable, fast, and secure connectivity for your business operations.</p>
+                    </article>
+
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
+                            </svg>
+                        </div>
+                        <h3>Cybersecurity Solutions</h3>
+                        <p>Comprehensive security including antivirus deployment, firewall configuration, and staff training on security best practices to protect your business from threats.</p>
+                    </article>
+
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path>
+                                <path d="m12 12-3 3h6l-3-3Z"></path>
+                            </svg>
+                        </div>
+                        <h3>Cloud Services & Migration</h3>
+                        <p>Seamless migration to Microsoft 365, Google Workspace, AWS, and other cloud platforms. Improve collaboration, security, and accessibility for your team.</p>
+                    </article>
+
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="m22 21-3-3m0 0a5.5 5.5 0 1 1-7.78-7.78 5.5 5.5 0 0 1 7.78 7.78Z"></path>
+                            </svg>
+                        </div>
+                        <h3>CCTV Installation & Maintenance</h3>
+                        <p>Professional surveillance solutions for homes and businesses. Complete installation, setup, and ongoing maintenance for enhanced security and peace of mind.</p>
+                    </article>
+
+                    <article class="service-card" role="listitem">
+                        <div class="service-icon" aria-hidden="true">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                                <path d="M12 18h.01"></path>
+                            </svg>
+                        </div>
+                        <h3>Bulk SMS & Email Campaigns</h3>
+                        <p>Cost-effective bulk messaging services to reach your clients instantly. Perfect for promotions, updates, and customer communication campaigns with high delivery rates.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact" role="region" aria-labelledby="contact-heading">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="contact-heading" class="section-title-white">Let's Build Something Amazing Together</h2>
+                    <p class="section-description-white">Ready to transform your business? Get in touch with us today!</p>
+                    <p class="section-slogan-white">"Stay ahead with the ever-changing technology"</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <h3>Contact Information</h3>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <p class="contact-label">Email:</p>
+                                    <a href="mailto:lubelotechsolutions@gmail.com" aria-label="Send email to Lubelo Tech Solutions">lubelotechsolutions@gmail.com</a>
+                                </div>
+                                <div class="contact-item">
+                                    <p class="contact-label">Phone:</p>
+                                    <a href="tel:+27659042919" aria-label="Call Lubelo Tech Solutions">+27 65 904 2919</a>
+                                </div>
+                                <div class="contact-item">
+                                    <p class="contact-label">Address:</p>
+                                    <address>85 Sixth Avenue, Essenwood, Durban, South Africa</address>
+                                </div>
+                                <div class="contact-item">
+                                    <p class="contact-label">Business Hours:</p>
+                                    <p>Monday - Friday: 8:00 AM - 4:00 PM<br>Saturday: 9:00 AM - 1:00 PM</p>
+                                </div>
+                                <div class="contact-item">
+                                    <p class="contact-label">Social Media:</p>
+                                    <div class="social-links">
+                                        <a href="https://facebook.com/LubeloTechSolutions" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">Facebook</a>
+                                        <a href="https://www.instagram.com/lubelo_tech_solutions/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram page">Instagram</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <div class="contact-card">
+                            <h3>Send us a Message</h3>
+                            <form id="contact-form" class="contact-form" novalidate>
+                                <div class="form-group">
+                                    <label for="name">Full Name *</label>
+                                    <input type="text" id="name" name="name" placeholder="Your full name" required aria-required="true">
+                                    <span class="error-message" id="name-error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address *</label>
+                                    <input type="email" id="email" name="email" placeholder="you@example.com" required aria-required="true">
+                                    <span class="error-message" id="email-error"></span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" placeholder="+27 XX XXX XXXX">
+                                </div>
+                                <div class="form-group">
+                                    <label for="service">Service Interested In</label>
+                                    <select id="service" name="service">
+                                        <option value="">Select a service</option>
+                                        <option value="website-design">Custom Website Design</option>
+                                        <option value="ecommerce">E-commerce Development</option>
+                                        <option value="cms">CMS Solutions</option>
+                                        <option value="landing-pages">Landing Pages</option>
+                                        <option value="maintenance">Website Maintenance</option>
+                                        <option value="seo">SEO Services</option>
+                                        <option value="support">Help Desk Support</option>
+                                        <option value="network">Network Setup</option>
+                                        <option value="cybersecurity">Cybersecurity</option>
+                                        <option value="cloud">Cloud Services</option>
+                                        <option value="cctv">CCTV Installation</option>
+                                        <option value="sms-email">Bulk SMS & Email</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message *</label>
+                                    <textarea id="message" name="message" placeholder="Tell us about your project or requirements..." required aria-required="true"></textarea>
+                                    <span class="error-message" id="message-error"></span>
+                                </div>
+                                <button type="submit" class="btn-submit" aria-label="Send your message">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-loading" style="display: none;">Sending...</span>
+                                </button>
+                                <div id="form-message" class="form-message" role="alert" aria-live="polite"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-brand">
+                        <span>Lubelo Tech Solutions</span>
+                    </div>
+                    <p class="footer-text">© 2025 Lubelo Tech Solutions. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <p class="footer-slogan">"Stay ahead with the ever-changing technology"</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/LubeloTechSolutions" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">Facebook</a>
+                        <a href="https://www.instagram.com/lubelo_tech_solutions/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram page">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" style="display: none;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="m18 15-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
